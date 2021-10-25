@@ -17,7 +17,7 @@ does need
     - delete included v2.0.2 SDFat-Library (does not support all features needed by RunCPM)
 - SDFat v2.10 Library (does support all features needed by RunCPM)
 
-RunCPM for Pico can be compiled in the Arduino-IDE up to 250Mhz
+RunCPM for Pico can be compiled in the Arduino-IDE up to 250Mhz<br/>
 With 275Mhz or 300Mhz RunCPM does not start up.
 
 see also (in german):<br/>
