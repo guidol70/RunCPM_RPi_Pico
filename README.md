@@ -1,6 +1,8 @@
 # RunCPM_RPi_Pico
 RunCPM for the Raspberry Pico
 
+![RunCPM_Pico_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_250Mhz_SPI_20Mhz.jpg?raw=true)
+
 Is using much of the RunCPM-Code for a Arduno-DUE (also HostOS 0x01 from the .ino)
 
 does need
@@ -23,3 +25,7 @@ With 275Mhz or 300Mhz RunCPM does not start up.
 
 see also (in german):<br/>
 https://forum.classic-computing.de/forum/index.php?thread/25805-runcpm-auf-dem-raspberry-pi-pico<br/>
+
+![RunCPM_Pico_Breadboard](https://github.com/guidol70/RunCPM_RPi_Pico/blob/main/Pico_Breadboard.jpg?raw=true)
+
+![RunCPM_Pico_PinOut](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/RunCPM_Pico_SPI_SDCard.jpg?raw=true)
