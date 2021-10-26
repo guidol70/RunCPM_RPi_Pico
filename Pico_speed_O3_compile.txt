@@ -1,0 +1,19 @@
+In
+C:\Users\guido\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\1.9.5\platform.txt
+(to find the file replace guido with your username )
+
+-Os
+====
+
+compiler.flags=-Os -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions
+
+Sketch uses 114400 bytes (5%) of program storage space. Maximum is 2093056 bytes.
+Global variables use 78800 bytes (30%) of dynamic memory, leaving 183344 bytes for local variables. Maximum is 262144 bytes.
+
+-O3 (34.78% more speed while using 250Mhz)
+==========================================
+
+compiler.flags=-O3 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions
+
+Sketch uses 138784 bytes (6%) of program storage space. Maximum is 2093056 bytes.
+Global variables use 78772 bytes (30%) of dynamic memory, leaving 183372 bytes for local variables. Maximum is 262144 bytes.
