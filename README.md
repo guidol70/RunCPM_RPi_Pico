@@ -23,7 +23,55 @@ does need
 RunCPM for Pico can be compiled in the Arduino-IDE up to 250Mhz<br/>
 With 275Mhz or 300Mhz RunCPM does not start up.
 
-see also (in german):<br/>
+### 34.78% speedup when you compile with .O3 option (at 250Mhz):
+```
+In
+C:\Users\guido\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\1.9.5\platform.txt
+(to find the file replace guido with your username )
+
+-Os
+====
+
+compiler.flags=-Os -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions
+
+Sketch uses 114400 bytes (5%) of program storage space. Maximum is 2093056 bytes.
+Global variables use 78800 bytes (30%) of dynamic memory, leaving 183344 bytes for local variables. Maximum is 262144 bytes.
+
+-O3 (34.78% more speed while using 250Mhz)
+==========================================
+
+compiler.flags=-O3 -march=armv6-m -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -fno-exceptions
+
+Sketch uses 138784 bytes (6%) of program storage space. Maximum is 2093056 bytes.
+Global variables use 78772 bytes (30%) of dynamic memory, leaving 183372 bytes for local variables. Maximum is 262144 bytes.
+```
+
+### get rid / avoid the most compiler-warnings:
+```
+In
+C:\Users\guido\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\1.9.5\platform.txt
+(to find the file replace guido with your username )
+
+change from (gnu17 and gnu++17) :
+# -------------------------------------------------------------------------------------------------- 
+compiler.c.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags} {compiler.includes} -std=gnu17 -g
+...
+compiler.cpp.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags} {compiler.includes} -fno-rtti -std=gnu++17 -g
+# --------------------------------------------------------------------------------------------------  
+
+change to  (gnu11 and gnu++11) - because  (gnu14 and gnu++14) doesnt work with the RP2040-compiler
+# -------------------------------------------------------------------------------------------------- 
+compiler.c.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags} {compiler.includes} -std=gnu11 -g
+...
+compiler.cpp.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags} {compiler.includes} -fno-rtti -std=gnu++11 -g
+# -------------------------------------------------------------------------------------------------- 
+
+
+because
+arm-none-eabi-gcc: error: unrecognized command-line option '-std=gnu14'; did you mean '-std=gnu11'?
+```
+
+### see also (in german):<br/>
 https://forum.classic-computing.de/forum/index.php?thread/25805-runcpm-auf-dem-raspberry-pi-pico<br/>
 
 ![RunCPM_Pico_Breadboard](https://github.com/guidol70/RunCPM_RPi_Pico/blob/main/Pico_Breadboard.jpg?raw=true)
