@@ -66,9 +66,16 @@ compiler.c.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags}
 compiler.cpp.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags} {compiler.includes} -fno-rtti -std=gnu++11 -g
 # -------------------------------------------------------------------------------------------------- 
 
-
 because
 arm-none-eabi-gcc: error: unrecognized command-line option '-std=gnu14'; did you mean '-std=gnu11'?
+
+# -------------------------------------------------------------------------------------------------- 
+In
+C:\Users\guido\Documents\Arduino\libraries\SdFat\src\SDFat.h
+(to find the file replace guido with your username )
+comment out the warning (becausee we use File32 instead)
+// #warning File not defined because __has__include(FS.h)
+
 ```
 
 ### see also (in german):<br/>
