@@ -23,10 +23,9 @@ does need
 RunCPM for Pico can be compiled in the Arduino-IDE up to 250Mhz<br/>
 With 275Mhz or 300Mhz RunCPM does not start up.
 
-## 34.78% speedup when you compile 
-## with .O3 option (at 250Mhz)
-## around 6.4 times faster - 25.6Mhz - 
-## than a Z80 with 4Mhz (Philips P2500 Z80@4MHz) :
+### 34.78% speedup when you compile with .O3 option (at 250Mhz)
+### around 6.4 times faster - 25.6Mhz - 
+### than a Z80 with 4Mhz (Philips P2500 Z80@4MHz) :
 ```
 In
 C:\Users\guido\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\1.9.5\platform.txt
