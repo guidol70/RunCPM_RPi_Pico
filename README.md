@@ -1,7 +1,7 @@
 # RunCPM_RPi_Pico
 RunCPM for the Raspberry Pico
 
-![RunCPM_Pico_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/GL20220621_RP2040_220.jpg?raw=true)
+![RunCPM_Pico_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/GL20220629_RP2040_222.jpg?raw=true)
 
 Is using much of the RunCPM-Code for a Arduno-DUE (also HostOS 0x01 from the .ino)
 
@@ -84,5 +84,13 @@ comment out the warning (becausee we use File32 instead)
 https://forum.classic-computing.de/forum/index.php?thread/25805-runcpm-auf-dem-raspberry-pi-pico<br/>
 
 ![RunCPM_Pico_Breadboard](https://github.com/guidol70/RunCPM_RPi_Pico/blob/main/Pico_Breadboard.jpg?raw=true)
+
+![RunCPM_Pico_Reset_FrontView](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_Reset_FrontView_640px.jpg?raw=true)
+
+![RunCPM_Pico_Reset_RearView](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_Reset_RearView_640px.jpg?raw=true)
+
+![RunCPM_Pico_Reset_SDCardConnect](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_SDConnect_640px.jpg?raw=true)
+
+![RunCPM_Pico_ResetButton](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_ResetButton_640px.jpg?raw=true)
 
 ![RunCPM_Pico_PinOut](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/RunCPM_Pico_SPI_SDCard.jpg?raw=true)
