@@ -85,12 +85,12 @@ https://forum.classic-computing.de/forum/index.php?thread/25805-runcpm-auf-dem-r
 
 ![RunCPM_Pico_Breadboard](https://github.com/guidol70/RunCPM_RPi_Pico/blob/main/Pico_Breadboard.jpg?raw=true)
 
-![RunCPM_Pico_Reset_FrontView](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_Reset_FrontView_640px.jpg?raw=true)
+![RunCPM_Pico_FrontView](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_FrontView_1024px.jpg?raw=true)
 
-![RunCPM_Pico_Reset_RearView](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_Reset_RearView_640px.jpg?raw=true)
+![RunCPM_Pico_RearView](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_RearView_1024px.jpg?raw=true)
 
-![RunCPM_Pico_Reset_SDCardConnect](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_SDConnect_640px.jpg?raw=true)
+![RunCPM_Pico_SDCardConnect](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_SDConnect_1024px.jpg?raw=true)
 
-![RunCPM_Pico_ResetButton](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_ResetButton_640px.jpg?raw=true)
+![RunCPM_Pico_ResetButton](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_ResetButton_1024px.jpg?raw=true)
 
 ![RunCPM_Pico_PinOut](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/RunCPM_Pico_SPI_SDCard.jpg?raw=true)
