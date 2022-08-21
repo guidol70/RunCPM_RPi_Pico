@@ -1,7 +1,7 @@
 # RunCPM_RPi_Pico
 RunCPM for the Raspberry Pico
 
-![RunCPM_Pico_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/GL20220815_RP2040_240.jpg?raw=true)
+![RunCPM_Pico_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/GL20220821_AIDE2.jpg?raw=true)
 
 Is using much of the RunCPM-Code for a Arduno-DUE (also HostOS 0x01 from the .ino)
 
