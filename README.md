@@ -93,4 +93,4 @@ https://forum.classic-computing.de/forum/index.php?thread/25805-runcpm-auf-dem-r
 
 ![RunCPM_Pico_ResetButton](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_ResetButton_1024px.jpg?raw=true)
 
-![RunCPM_Pico_PinOut](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/RunCPM_Pico_SPI_SDCard.jpg?raw=true)
+
