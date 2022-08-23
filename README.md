@@ -31,33 +31,26 @@ than a Z80 with 4Mhz (Philips P2500 Z80@4MHz) :
 In
 C:\Users\guido\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\1.9.5\platform.txt
 (to find the file replace guido with your username )
+```
+change from (gnu17 and gnu++17)<br>
+![RunCPM_Pico_platform_from](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/platform_txt_from.jpg?raw=true)
+<br><br>
+change to (gnu11 and gnu++11)<br>
+![RunCPM_Pico_platform_to](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/platform_txt_to.jpg?raw=true)
 
-change from (gnu17 and gnu++17) :
-# -------------------------------------------------------------------------------------------------- 
-compiler.c.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags} {compiler.includes} -std=gnu17 -g
-...
-compiler.cpp.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags} {compiler.includes} -fno-rtti -std=gnu++17 -g
-# --------------------------------------------------------------------------------------------------  
-
-change to  (gnu11 and gnu++11) - because  (gnu14 and gnu++14) doesnt work with the RP2040-compiler
-# -------------------------------------------------------------------------------------------------- 
-compiler.c.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags} {compiler.includes} -std=gnu11 -g
-...
-compiler.cpp.flags=-c {compiler.warning_flags} {compiler.defines} {compiler.flags} {compiler.includes} -fno-rtti -std=gnu++11 -g
-# -------------------------------------------------------------------------------------------------- 
-
-because
+because of
+```
 arm-none-eabi-gcc: error: unrecognized command-line option '-std=gnu14'; did you mean '-std=gnu11'?
+```
+<br>
 
-# -------------------------------------------------------------------------------------------------- 
-
+```
 In
 C:\Users\guido\Documents\Arduino\libraries\SdFat\src\SDFat.h
 (to find the file replace guido with your username )
-comment out the warning (becausee we use File32 instead)
-// #warning File not defined because __has__include(FS.h)
-
+comment out the warning (because we use File32 instead)
 ```
+![RunCPM_Pico_has_filename](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/SdFat_h_changes.jpg?raw=true)
 
 ### see also (in german):<br>
 https://forum.classic-computing.de/forum/index.php?thread/25805-runcpm-auf-dem-raspberry-pi-pico<br>
