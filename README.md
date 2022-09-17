@@ -26,6 +26,19 @@ around 6.4 times faster - 25.6Mhz -
 than a Z80 with 4Mhz (Philips P2500 Z80@4MHz) :
 ```
 
+### If you want to use the ESP8266SdFat of the RP2040 Arduino-Core
+and not the (maybe) installed original SdFat-Library from Greiman:<br>
+Replace #include <SdFat.h> with include <ESP8266SdFat.h> in your .ino<br>
+and create the ESP8266SdFat.h in the following path<br>
+```
+C:\Users\[yourUser]\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\2.5.2\libraries\ESP8266SdFat\src
+```
+with the content
+```
+#include "SdFat.h"
+```
+
+
 ### get rid / avoid the most compiler-warnings:
 ```
 In
