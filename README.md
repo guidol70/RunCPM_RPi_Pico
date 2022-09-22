@@ -40,21 +40,24 @@ with the content
 
 
 ### get rid / avoid the most compiler-warnings:
-```
-In
-C:\Users\guido\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\1.9.5\platform.txt
-(to find the file replace guido with your username )
-```
-change from (gnu17 and gnu++17)<br>
-![RunCPM_Pico_platform_from](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/platform_txt_from.jpg?raw=true)
-<br><br>
-change to (gnu11 and gnu++11)<br>
-![RunCPM_Pico_platform_to](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/platform_txt_to.jpg?raw=true)
 
-because of
+In
+
 ```
-arm-none-eabi-gcc: error: unrecognized command-line option '-std=gnu14'; did you mean '-std=gnu11'?
+C:\Users\[user]\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\2.5.4\platform.txt
 ```
+add in the top of the file where the compiler-warning-flags-lines are
+
+```
+compiler.cpp_warning_flags=-Wno-register -Werror=return-type
+```
+<br>
+and change the compiler.cpp.flags line to
+
+```
+compiler.cpp.flags=-c {compiler.cpp_warning_flags} {compiler.defines} {compiler.flags} -MMD {compiler.includes} {build.flags.rtti} -std=gnu++17 -g -pipe
+```
+<br>
 <br>
 
 ```
