@@ -79,6 +79,13 @@ https://forum.classic-computing.de/forum/index.php?thread/25805-runcpm-auf-dem-r
 
 ![RunCPM_Pico_ResetButton](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_Pico_ResetButton_1024px.jpg?raw=true)
 <br><br>
+### SD-Card-Init problem:<br>
+If you got problems with the init of the SD-Card<br>
+then you could try to add duplicate Power (3.3v green) and GND (blue) cables<br>
+or an additional cable connection to the GND near the SPI pins (black)<br>
+
+![SDCard_init_problem](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/Pico_RunCPM_more_Power_GND.jpg?raw=true)<br><br>
+
 ### ATTENTION:<br>
 Please connect your SDCard Reader/Writer (if it has a 5v->3.3 StepDown-Converter) to 5V,<br>
 because the 3.3V (OUT) rail at Pin 38 may be insuffcient to deliver enough 3.3V for the Pico and the SDCard Read/Writer :(
