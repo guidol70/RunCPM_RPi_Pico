@@ -6,7 +6,8 @@ RunCPM for the Raspberry Pico
 Is using much of the RunCPM-Code for a Arduino-DUE (also HostOS 0x01 from the .ino)
 
 does need
-- SDCard interface with SPI
+- SDCard interface with SPI 
+
 ```
    SD card attached to SPI bus as follows:
    // Arduino-pico core
@@ -25,6 +26,17 @@ With 275Mhz or 300Mhz RunCPM does not start up.
 around 6.4 times faster - 25.6Mhz - 
 than a Z80 with 4Mhz (Philips P2500 Z80@4MHz) :
 ```
+
+### Create the SDCard for Drive A:
+#### copy the contents of SDCard_content.zip to a FAT16/FAT32 formatted SDCard
+Infotext about the possible drives and user-areas from the original project-page 
+https://github.com/MockbaTheBorg/RunCPM
+
+RunCPM emulates the CP/M disks and user areas by means of subfolders under the RunCPM executable location, to prepare a folder or SD card for running RunCPM use the following procedures:
+Create subfolders under where the RunCPM executable is located and name them "A", "B", "C" and so on, for each disk drive you intend to use, each one of these folders will be one disk drive, and under folder "A" create a subfolder named "0". This is the user area 0 of disk A:, extract the contents of A.ZIP package into this "0" subfolder. Switching to another user area inside CP/M will automatically create the respective user area subfolders, "1", "2", "3" ... as they are selected. Subfolders for the user areas 10 to 15 are created as letters "A" to "F".
+
+All the letters for folders/subfolders and file names should be kept in uppercase, to avoid any issues of case-sensitive filesystems compatibility. CP/M only supported 16 disk drives: A: to P:, so creating other letters above P won't work, same goes for user areas above 15 (F).
+
 
 ### If you want to use the ESP8266SdFat of the RP2040 Arduino-Core
 and not the (maybe) installed original SdFat-Library from Greiman:<br>
