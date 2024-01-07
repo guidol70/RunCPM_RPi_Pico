@@ -1,5 +1,5 @@
 # RunCPM_RPi_Pico
-RunCPM for the Raspberry Pico
+RunCPM for the Raspberry Pico and PicoW
 
 ![RunCPM_Pico_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/GL20240107_RP363.jpg?raw=true)
 
