@@ -18,7 +18,9 @@ does need
 ```
 - RP2040 Hardware-/Board Support https://github.com/earlephilhower/arduino-pico
 
-RunCPM for Pico can be compiled in the Arduino-IDE up to 250Mhz<br/>
+RunCPM for Pico can be compiled in the Arduino-IDE up to 250Mhz<br/><br/>
+[EDIT] via Ardino-IDE-Tweaks the Pico can run up to 270Mhz<br/>
+and the PicoW up to 260Mhz<br/><br/>
 With 275Mhz or 300Mhz RunCPM does not start up.
 
 ```
