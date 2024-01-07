@@ -3,6 +3,8 @@ RunCPM for the Raspberry Pico
 
 ![RunCPM_Pico_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/GL20240107_RP363.jpg?raw=true)
 
+![RunCPM_PicoW_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/GL20240107_RP363_W.jpg?raw=true)
+
 Is using much of the RunCPM-Code for a Arduino-DUE (also HostOS 0x01 from the .ino)
 
 does need
