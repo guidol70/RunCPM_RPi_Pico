@@ -1,9 +1,9 @@
 # RunCPM_RPi_Pico
-RunCPM for the Raspberry Pico, PicoW and Pico2
+RunCPM for the Raspberry Pico and Pico2
 
-![RunCPM_Pico_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_v6_8_Pico.jpg?raw=true)
+![RunCPM_Pico_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_v6_9_Pico.jpg?raw=true)
 
-![RunCPM_Pico2_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_v6_8_Pico2.jpg?raw=true)
+![RunCPM_Pico2_BootUpScreen](https://github.com/guidol70/RunCPM_RPi_Pico/raw/main/more_pictures/RunCPM_v6_9_Pico2.jpg?raw=true)
 
 Is using much of the RunCPM-Code for a Arduino-DUE (also HostOS 0x01 from the .ino)
 
